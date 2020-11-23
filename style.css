@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding-bottom: 50vh;
+}
+body > header {
+	width: 100%;
+	height: calc(100vh - 6rem);
+	font-size: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main {
+	min-height: 100vh;
+}
+section {
+	margin-top: -6rem;
+	padding: 6rem 20%;
+}
+nav {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 6rem;
+	background-color: black;
+	color: white !important;
+}
+nav a {
+	font-size: 2rem;
+	padding: 2rem;
+}
+feed {
+
+}
+post {
+	display: block;
+	background-color: #fafafa;
+	margin: 2rem 0;
+	padding: 2rem;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
